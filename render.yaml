@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: dailyenglish360-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    repo: https://github.com/your-username/your-repo-name
+    branch: main
+    autoDeploy: true
